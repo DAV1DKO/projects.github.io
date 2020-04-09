@@ -103,6 +103,14 @@
        
     <script>
         //prompt, parseInt, parseFloat, alert, console.log
+        //La idea seria utilizar esto al principio y contar la historia con un paso por todos las section
+        //El problema es el dom, poner algo en un punto del document html
+        //navigator, window, document
+        //Usar If o switch
+        var weight = prompt ("Write here your weight in kilogramms for this blue planet, \nwhere gravity is equal to 9.8m/s^2")
+        var planet = parseInt ( prompt("Please select a planet to calculate your weight on accordande with the numbers \n 1 - Mercury, \n 2 - Mars, \n 3-Jupiter, \n 4 - Saturn, \n 5 - Uranus, \n 6 - Venus, \n 7 - Neptune"));
+        var namePlanet;
+        var urWeight;
         mercury = 3.7;
         earth = 9.8;
         mars = 3.7;
@@ -111,12 +119,22 @@
         uranus = 8.9;
         venus = 8.9;
         neptune = 11.1;
+
+        switch (key) {
+            case value:
+                
+                break;
+        
+            default:
+                break;
+        }
         
 
         function sectForMss() {
-            document.getElementById("5").innerHTML; 
+            //document.getElementById("#5").innerHTML; 
               //"<h3>This is the text which has been inserted by JS</h3>";
-            document.write("mari");
+              document.body.getElementsByTagNameNS
+            document.write("mari" + namePlanet + "   " + urWeight + "   " );
             
         }
 
